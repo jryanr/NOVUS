@@ -32,4 +32,41 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="User Name"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="291dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="468dp" />
+
+    <Button
+        android:id="@+id/creaatebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create account"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="529dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
